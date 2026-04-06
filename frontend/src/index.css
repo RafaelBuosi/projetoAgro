@@ -1,0 +1,18 @@
+/*
+ Projeto: AgroTech Connect - Gestão de Startups
+ Disciplina: Análise e Desenvolvimento de Sistemas - ADS
+ Instituição: Rede Gonzaga de Ensino Superior (REGES) - RIBEIRÃO PRETO
+ Autor: Rafael Buosi Jardim, 5º termo
+ Referência: Projeto base fornecido pelo Prof. Esp. Miguel Leme
+*/
+
+* { box-sizing: border-box; }
+
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  min-height: 100vh;
+  background-color: var(--bg-core);
+  overflow-x: hidden;
+}

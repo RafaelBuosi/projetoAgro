@@ -1,0 +1,74 @@
+/*
+ Projeto: AgroTech Connect - Gestão de Startups
+ Disciplina: Análise e Desenvolvimento de Sistemas - ADS
+ Instituição: Rede Gonzaga de Ensino Superior (REGES) - RIBEIRÃO PRETO
+ Autor: Rafael Buosi Jardim, 5º termo
+ Referência: Projeto base fornecido pelo Prof. Esp. Miguel Leme
+*/
+
+.agro-nav {
+  /* Requisito 4.2: Navegação fixa para melhor experiência do usuário */
+  position: sticky !important;
+  top: 0;
+  width: 100%;
+  padding: 0.8rem 2rem;
+  background: var(--bg-core);
+  backdrop-filter: blur(15px);
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1050;
+}
+
+.nav-left { 
+  display: flex; 
+  align-items: center; 
+  gap: 15px; 
+}
+
+.btn-menu-trigger {
+  background: none; 
+  border: none; 
+  color: var(--text-main);
+  font-size: 1.8rem; 
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.btn-menu-trigger:hover {
+  transform: scale(1.1);
+  color: var(--green-color);
+}
+
+.logo-text {
+  font-weight: 800;
+  font-size: 1.5rem;
+  letter-spacing: -0.5px;
+  color: var(--green-color);
+}
+
+.logo-text span {
+  font-weight: 400;
+  color: var(--text-main);
+}
+
+.btn-theme-toggle {
+  background: var(--glass); 
+  border: 1px solid var(--border);
+  color: var(--text-main); 
+  border-radius: 50%; 
+  width: 40px; 
+  height: 40px;
+  cursor: pointer; 
+  display: flex; 
+  align-items: center; 
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+
+.btn-theme-toggle:hover {
+  background: var(--green-color);
+  color: var(--bg-core);
+  border-color: var(--green-color);
+}

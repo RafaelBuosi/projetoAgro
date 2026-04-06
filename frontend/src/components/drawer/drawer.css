@@ -1,0 +1,104 @@
+/*
+ Projeto: AgroTech Connect - Gestão de Startups
+ Disciplina: Análise e Desenvolvimento de Sistemas - ADS
+ Instituição: Rede Gonzaga de Ensino Superior (REGES) - RIBEIRÃO PRETO
+ Autor: Rafael Buosi Jardim, 5º termo
+ Referência: Projeto base fornecido pelo Prof. Esp. Miguel Leme
+*/
+
+.drawer-overlay {
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+  width: 100%; 
+  height: 100%;
+  /* Requisito 4.3: Overlay escuro conforme especificação do modal/drawer */
+  background: rgba(0, 0, 0, 0.7); 
+  backdrop-filter: blur(8px);
+  z-index: 1500; 
+  opacity: 0; 
+  visibility: hidden; 
+  transition: 0.3s;
+}
+
+.drawer-overlay.active { 
+  opacity: 1; 
+  visibility: visible; 
+}
+
+.drawer-content {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 300px;
+  height: 100vh;
+  background: var(--bg-core);
+  border-right: 1px solid var(--border);
+  z-index: 2000;
+  padding: 4rem 2rem;
+  /* Requisito 4.3: Animação de entrada (Slide-in) para navegação */
+  transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+  transform: translateX(-100%);
+  
+  /* Requisito 4.2: Tipografia consistente Poppins */
+  font-family: 'Poppins', sans-serif !important;
+}
+
+.drawer-content.active {
+  transform: translateX(0);
+}
+
+.drawer-content h2 {
+  font-weight: 800;
+  font-size: 1.8rem;
+  letter-spacing: -1px; 
+  color: var(--green-color);
+  margin-bottom: 2rem;
+}
+
+.drawer-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Requisito 4.2: Feedback visual para ações (Hover e Transição) */
+.drawer-link {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 12px;
+  color: var(--text-main);
+  text-decoration: none;
+  opacity: 0.7;
+  transition: 0.3s;
+  font-weight: 600;
+}
+
+.drawer-link:hover {
+  opacity: 1;
+  transform: translateX(10px);
+  color: var(--green-color);
+}
+
+.btn-close-drawer {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: none;
+  border: 1px solid var(--border);
+  color: var(--text-main);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s;
+}
+
+.btn-close-drawer:hover {
+  background: var(--border);
+  transform: rotate(90deg);
+}

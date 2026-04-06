@@ -1,0 +1,84 @@
+/*
+ Projeto: AgroTech Connect - Gestão de Startups
+ Disciplina: Análise e Desenvolvimento de Sistemas - ADS
+ Instituição: Rede Gonzaga de Ensino Superior (REGES) - RIBEIRÃO PRETO
+ Autor: Rafael Buosi Jardim, 5º termo
+ Referência: Projeto base fornecido pelo Prof. Esp. Miguel Leme
+*/
+
+.startup-card {
+  /* Requisito 4.2: Estética moderna com Glassmorphism e Bordas suaves */
+  background: var(--glass);
+  border: 1px solid var(--border);
+  border-radius: 15px;
+  padding: 25px;
+  /* Requisito 4.3: Transição suave para animação de hover */
+  transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Requisito 4.3: Hover do card com efeito visual de elevação e brilho */
+.startup-card:hover { 
+  transform: translateY(-8px); 
+  box-shadow: 0 12px 30px rgba(45, 106, 79, 0.2);
+  border-color: var(--green-color);
+}
+
+.card-header h3 { 
+  font-weight: 800; 
+  font-size: 1.5rem; 
+  margin: 0; 
+  color: var(--text-main); 
+  letter-spacing: -0.5px;
+}
+
+.card-body p { 
+  font-size: 0.9rem; 
+  opacity: 0.8; 
+  margin: 0; 
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.card-footer { 
+  display: flex; 
+  gap: 10px; 
+  margin-top: auto; 
+  padding-top: 15px;
+}
+
+/* Requisito 4.4: Estilização dos botões de ação */
+.btn-edit, .btn-delete {
+  background: rgba(255, 255, 255, 0.05); 
+  border: 1px solid var(--border);
+  color: var(--text-main); 
+  padding: 8px 15px; 
+  border-radius: 6px;
+  cursor: pointer; 
+  display: flex; 
+  align-items: center; 
+  gap: 8px; 
+  font-size: 0.75rem;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+/* Requisito 4.4: Cor neutra para edição (Azul/Ciano conforme edital) */
+.btn-edit:hover { 
+  background: #3a86ff; 
+  border-color: #3a86ff; 
+  color: white;
+}
+
+/* Requisito 4.4: Cor de alerta para exclusão (Vermelho conforme edital) */
+.btn-delete:hover { 
+  background: #ff4d4d; 
+  border-color: #ff4d4d; 
+  color: white; 
+}
