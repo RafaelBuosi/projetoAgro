@@ -21,20 +21,22 @@ Conforme as especificações do Prof. Esp. Miguel Leme, os seguintes itens foram
 6. Gestão de Dados - CRUD Completo (Módulos 7, 8 e 9)
 
 # Como Executar o Projeto
-Passo 1: Iniciar o Backend
+**Passo 1: Iniciar o Backend**
 
 PowerShell
 
-Na raiz do projeto (C:\ProjetoAgro)
+*Na raiz do projeto (C:\ProjetoAgro)*
 
 npm install
 
-npm run dev O servidor rodará em http://localhost:3000
+npm run dev 
 
-Passo 2: Iniciar o Frontend
+*O servidor rodará em http://localhost:3000*
+
+**Passo 2: Iniciar o Frontend**
 PowerShell
 
-Em outro terminal, na pasta frontend
+*Em outro terminal, na pasta frontend*
 
 cd frontend
 
@@ -42,7 +44,7 @@ npm install
 
 npm run dev
 
-Acesse o link exibido (geralmente http://localhost:5173)
+*Acesse o link exibido (geralmente http://localhost:5173)*
 
 # Identificação do Aluno
 Desenvolvedor: Rafael Buosi Jardim - 5º Termo
