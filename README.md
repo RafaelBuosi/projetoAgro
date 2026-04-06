@@ -1,5 +1,5 @@
 # AgroTech Connect - Sistema de Gestão de Startups
-Este projeto é o Projeto Final de Módulo da disciplina de Desenvolvimento Web (ADS - 5º e 6º Termo). Ele consiste na evolução do sistema projeto_agro_v3, integrando uma API Node.js com uma interface moderna em React.
+Este é um projeto acadêmico da disciplina de Desenvolvimento Web (ADS - 5º e 6º Termo). Ele consiste na evolução do sistema projeto_agro_v3, integrando uma API Node.js com uma interface moderna em React.
 
 # Tecnologias e Ferramentas (Módulos 1 ao 5)
 Backend: Node.js, Express, Cors e Nodemon.
