@@ -1,0 +1,69 @@
+/*
+ Projeto: AgroTech Connect - Gestão de Startups
+ Disciplina: Análise e Desenvolvimento de Sistemas - ADS
+ Instituição: Rede Gonzaga de Ensino Superior (REGES) - RIBEIRÃO PRETO
+ Autor: Rafael Buosi Jardim, 5º termo
+ Referência: Projeto base fornecido pelo Prof. Esp. Miguel Leme
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap');
+
+:root {
+  /* Requisito 4.2: Paleta de cores coerente e harmoniosa (Tons de Verde e Eco-Mint) */
+  --bg-core: #0a120b;
+  --text-main: #f8f9fa;
+  --eco-mint: #95d5b2;
+  --input-bg: rgba(255, 255, 255, 0.05);
+  --border: rgba(149, 213, 178, 0.15);
+  --glass: rgba(45, 106, 79, 0.1);
+  --placeholder-color: rgba(248, 249, 250, 0.4); 
+}
+
+.light-theme {
+  /* Requisito 4.2: Versatilidade visual com suporte a tema claro */
+  --bg-core: #deffe3;
+  --text-main: #0b2e22;
+  --eco-mint: #1b4332;
+  --input-bg: #ffffff44;
+  --border: rgba(0, 0, 0, 0.15);
+  --glass: rgba(0, 0, 0, 0.05);
+  --placeholder-color: rgba(8, 28, 21, 0.5); 
+}
+
+/* Requisito 4.2: Tipografia legível (Poppins) e box-sizing para consistência de espaçamento */
+* { 
+  font-family: 'Poppins', sans-serif; 
+  box-sizing: border-box; 
+}
+
+.app-wrapper {
+  background-color: var(--bg-core);
+  color: var(--text-main);
+  min-height: 100vh;
+  /* Requisito 4.2: Feedback visual suave na transição de temas */
+  transition: background-color 0.4s, color 0.4s;
+}
+
+.main-layout {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  width: 100%;
+}
+
+/* Requisito 4.2: Hierarquia visual clara com títulos destacados e espaçamento consistente */
+.page-title {
+  font-weight: 800;
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 2.5rem;
+  letter-spacing: -1px;
+}
+
+/* Requisito 4.3: Grid responsivo de cards (Mínimo 2 colunas em desktop através do minmax 300px) */
+.startup-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 25px;
+  margin-top: 40px;
+}
