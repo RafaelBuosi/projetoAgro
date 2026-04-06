@@ -1,7 +1,7 @@
-AgroTech Connect - Sistema de Gestão de Startups
-Este projeto é o Projeto Final de Módulo da disciplina de Desenvolvimento Web (ADS - 5º e 6º Termo). Ele consiste na evolução do sistema projeto_agro_v3, integrando uma API Node.js com uma interface moderna e responsiva em React.
+# AgroTech Connect - Sistema de Gestão de Startups
+Este projeto é o Projeto Final de Módulo da disciplina de Desenvolvimento Web (ADS - 5º e 6º Termo). Ele consiste na evolução do sistema projeto_agro_v3, integrando uma API Node.js com uma interface moderna em React.
 
-Tecnologias e Ferramentas (Módulos 1 ao 5)
+# Tecnologias e Ferramentas (Módulos 1 ao 5)
 Backend: Node.js, Express, Cors e Nodemon.
 
 Frontend: React.js (Hooks: useState, useEffect) com Vite.
@@ -10,8 +10,8 @@ Estilização: CSS3 Moderno (Identidade Visual Customizada).
 
 Versionamento: Git & GitHub (Histórico de commits organizado por etapas).
 
-Implementações Realizadas (Critérios de Avaliação)
-Conforme as especificações do Prof. Esp. Miguel Leme, os seguintes itens foram entregues e testados:
+# Implementações Realizadas (Critérios de Avaliação)
+Conforme as especificações do Prof. Esp. Miguel Leme, os seguintes itens foram entregues:
 
 1. Campo Ano de Abertura (Item 4.1)
 [x] Inclusão do campo Ano de Abertura (tipo number) no formulário de cadastro.
@@ -43,25 +43,21 @@ Conforme as especificações do Prof. Esp. Miguel Leme, os seguintes itens foram
 
 [x] Delete: Botão Excluir com confirmação de segurança antes da remoção.
 
-Como Executar o Projeto
+# Como Executar o Projeto
 Passo 1: Iniciar o Backend
-Abra o PowerShell na raiz do projeto (C:\ProjetoAgro):
-
 PowerShell
+# Na raiz do projeto (C:\ProjetoAgro)
 npm install
 npm run dev
-O servidor rodará em: http://localhost:3000
-
+# O servidor rodará em http://localhost:3000
 Passo 2: Iniciar o Frontend
-Abra um segundo terminal na pasta frontend:
-
 PowerShell
+# Em outro terminal, na pasta frontend
 cd frontend
 npm install
 npm run dev
-Acesse o link exibido no terminal (geralmente: http://localhost:5173)
-
-👤 Identificação do Aluno
+# Acesse o link exibido (geralmente http://localhost:5173)
+Identificação do Aluno
 Desenvolvedor: Rafael Buosi Jardim - 5º Termo
 
 Curso: Análise e Desenvolvimento de Sistemas (ADS)
@@ -70,9 +66,9 @@ Instituição: Faculdade Reges de Ribeirão Preto
 
 Professor: Esp. Miguel Leme
 
-📝 Observações de ADS
+# Observações de ADS
 O projeto utiliza a arquitetura de Modularização (Pasta src/ para o backend).
 
-Configurado com "type": "module" no package.json para uso de imports modernos (ES6).
+Configurado com type: module no package.json para uso de imports modernos.
 
 Histórico de commits organizado para demonstrar a evolução lógica do desenvolvimento.
