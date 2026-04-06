@@ -13,35 +13,12 @@ Versionamento: Git & GitHub (Histórico de commits organizado por etapas).
 # Implementações Realizadas (Critérios de Avaliação)
 Conforme as especificações do Prof. Esp. Miguel Leme, os seguintes itens foram entregues:
 
-1. Campo Ano de Abertura (Item 4.1)
-[x] Inclusão do campo Ano de Abertura (tipo number) no formulário de cadastro.
-
-[x] Validação de intervalo (1900 até 2026).
-
-[x] Exibição dinâmica nos cards da listagem e no modal de detalhes.
-
-2. Identidade Visual Aprimorada (Item 4.2)
-[x] Paleta de Cores: Estética recalibrada com tons profissionais de verde e ciano, focada no setor agrícola.
-
-[x] Hierarquia Visual: Tipografia clara e espaçamentos consistentes.
-
-[x] Feedback: Efeitos de hover e estados de foco em botões e cards.
-
-3. Modal & Cards Animados (Item 4.3)
-[x] Grid responsivo de cards com animações de entrada (Fade-in/Slide-up).
-
-[x] Efeito de elevação (box-shadow) e scale ao passar o mouse.
-
-[x] Modal funcional com overlay escuro para visualização completa dos dados.
-
-4. Gestão de Dados - CRUD Completo (Módulos 7, 8 e 9)
-[x] Create: Cadastro via formulário com persistência em JSON.
-
-[x] Read: Listagem dinâmica consumindo a rota GET do backend.
-
-[x] Update: Botão Editar que abre formulário pré-preenchido para atualização de dados.
-
-[x] Delete: Botão Excluir com confirmação de segurança antes da remoção.
+1. Inclusão do campo Ano de Abertura (tipo number) no formulário de cadastro (Item 4.1).
+2. Validação de intervalo (1900 até 2026).
+3. Exibição dinâmica nos cards da listagem e no modal de detalhes.
+4. Identidade Visual Aprimorada (Item 4.2)
+5. Modal & Cards Animados (Item 4.3)
+6. Gestão de Dados - CRUD Completo (Módulos 7, 8 e 9)
 
 # Como Executar o Projeto
 Passo 1: Iniciar o Backend
