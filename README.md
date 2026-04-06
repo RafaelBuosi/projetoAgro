@@ -23,29 +23,25 @@ Conforme as especificações do Prof. Esp. Miguel Leme, os seguintes itens foram
 # Como Executar o Projeto
 Passo 1: Iniciar o Backend
 PowerShell
-# Na raiz do projeto (C:\ProjetoAgro)
+Na raiz do projeto (C:\ProjetoAgro)
 npm install
-npm run dev
-# O servidor rodará em http://localhost:3000
+npm run dev O servidor rodará em http://localhost:3000
+
 Passo 2: Iniciar o Frontend
 PowerShell
-# Em outro terminal, na pasta frontend
+Em outro terminal, na pasta frontend
 cd frontend
 npm install
 npm run dev
-# Acesse o link exibido (geralmente http://localhost:5173)
-Identificação do Aluno
+Acesse o link exibido (geralmente http://localhost:5173)
+
+# Identificação do Aluno
 Desenvolvedor: Rafael Buosi Jardim - 5º Termo
-
 Curso: Análise e Desenvolvimento de Sistemas (ADS)
-
 Instituição: Faculdade Reges de Ribeirão Preto
-
 Professor: Esp. Miguel Leme
 
 # Observações de ADS
 O projeto utiliza a arquitetura de Modularização (Pasta src/ para o backend).
-
 Configurado com type: module no package.json para uso de imports modernos.
-
 Histórico de commits organizado para demonstrar a evolução lógica do desenvolvimento.
